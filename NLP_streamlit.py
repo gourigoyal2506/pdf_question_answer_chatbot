@@ -24,15 +24,11 @@ from langchain_community.vectorstores import FAISS
 
 GOOGLE_API_KEY = "AIzaSyA9HvXllMvhy52q6m1JHkWZ8qWbEfpUKOk"
 
-# Set Google API key directly
-#os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Configure LangChain
-#genai.set_google_api_key(GOOGLE_API_KEY)
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
-#genai.configure(google_api_key=GOOGLE_API_KEY)
 
 
 
